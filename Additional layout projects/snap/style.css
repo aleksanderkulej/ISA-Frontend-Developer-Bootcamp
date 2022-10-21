@@ -1,0 +1,135 @@
+
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 98%);
+    width: 1440px;
+    font-size: 18px;
+    align-items: center;
+    align-content: center;
+    font-family: Epilogue, sans-serif;
+    
+  }
+  
+  .topnav ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 0px;
+    align-items: flex-start;
+    align-content: center;
+    
+  }
+
+  
+  
+  .topnav a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    
+  }
+  
+  .topnav li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+  }
+  
+  .topnav li img {
+    margin: 0px 7px 0px 7px;
+  }
+  
+  .register-button {
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px 20px;
+    border-color: hsl(0, 0%, 41%);
+    font-family: Epilogue, sans-serif;
+    border: 2px solid grey;
+    color: hsl(0, 0%, 41%);
+    font-size: 18px;
+  }
+
+  .login-section {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-family: Epilogue, sans-serif;
+    color: hsl(0, 0%, 41%);
+    max-width: 65%;
+  }
+  
+  .right-side-column {
+    max-width: 40%;
+  }
+  
+  .left-side-column {
+    max-width: 50%;
+  }
+  
+  main img {
+    max-width: 100%;
+  }
+  
+  main h1 {
+    font-size: 70px;
+    color: hsl(0, 0%, 8%);
+  }
+  
+  .left-side-column p {
+    font-size: 18px;
+    font-family: Epilogue;
+    color: hsl(0, 0%, 41%);
+    padding-right: 100px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+  
+  .learn-more-btn {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-radius: 100px;
+    background-color: hsl(0, 0%, 8%);
+    padding: 10px 20px;
+    border-color: hsl(0, 0%, 41%);
+    font-family: Epilogue, sans-serif;
+    font-weight: bold;
+    border: 2px solid grey;
+    color: hsl(0, 0%, 98%);
+    font-size: 18px;
+  }
+  
+  .logos-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    
+  }
+  
+  .logos img {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  .right-side-column {
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+  }
+  

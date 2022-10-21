@@ -1,0 +1,294 @@
+body {
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    height: 1vh;
+
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.logo {
+    margin: 0px 0px 0px 50px;
+
+}
+
+.image-content {
+    width: 50%;
+    height: 1000px;
+    background-image: url('./images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-content {
+
+    width: 50%;
+    height: 1000px;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 5%;
+
+    
+
+}
+
+
+
+.text-content img {
+    /* margin: 50px 100px 50px 50px; */
+    /* width: 200px; */
+
+
+}
+
+.text-content h1 {
+    margin: 0px 100px 50px 50px;
+    font-weight: 100;
+    font-size: 70px;
+    color: hsl(0, 93%, 68%);
+    letter-spacing: 15px;
+    justify-self: flex-start;
+    line-height: 80px;
+
+}
+
+strong {
+ 
+    font-size: 70px;
+    color: rgb(51, 51, 51);
+}
+
+.text-content p {
+    display: block;
+    margin: 0px 100px 0px 50px;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-weight: 400;
+    justify-self: flex-start;
+
+}
+
+.newsletter-section {
+    display: flex;
+    width: 85%;
+
+
+    /* margin: 50px 100px 50px 50px; */
+
+}
+
+
+.nws-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 200px;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+
+    margin: 0px 0px 0px 50px;
+    width: 85%;
+    min-width: 150px;
+    height: 100%;
+    background-color: transparent;
+    text-align: left;
+    padding: 0 0 0 7%;
+    color: lightgray;
+    font-size: 18px;
+    
+}
+
+.nws-btn img {
+    display: flex;
+    width: 100px;
+    height: auto;
+    max-height: 65px;
+    border-radius: 200px;
+    justify-content: flex-end;
+    object-fit: none;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));;
+    border: 1px solid lightgray;
+    justify-self: flex-end;
+
+
+    /* margin: auto; */
+    /* padding: 20px; */
+}
+
+/* .arrow {
+    width: 10px;
+    margin: 0;
+} */
+
+
+.arrow {
+    background-color: rebeccapurple;
+    margin: 0;
+    /* height: 30px; */
+}
+
+.logo-mobile {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .logo-mobile {
+        order: 1;
+        position: relative;
+        height: 100px;
+
+    }
+
+
+    html {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        height: auto;
+        padding: 0;
+    }
+
+    .text-content {
+        order: 3;
+        width: inherit;
+
+        justify-content: flex-start;
+        padding: 0 5%;
+        height: auto;
+
+
+
+    }
+
+    .text-content h1 {
+       margin: 0;
+       font-size: 250%;
+       line-height: 50px;
+       margin-bottom: 5%;
+       margin-top: 5%;
+
+
+    }
+
+    .text-content p {
+       line-height: 30px;
+ 
+ 
+     }
+
+    .text-content h1 strong {
+        margin: 0;
+        font-size: 100%;
+ 
+ 
+     }
+
+    .main-text {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .image-content {
+        order: 2;
+        width: 100%;
+        height: auto;
+        min-width: 150px;
+        min-height: 200px;
+        background-image: url(./images/hero-mobile.jpg);
+        object-fit: none;
+        margin: 0;
+
+    }
+
+    .logo {
+        visibility: hidden;
+    }
+
+    .logo-mobile {
+        visibility: visible;
+        width: 30%;
+        height: auto;
+        padding: 5%;
+    }
+
+    .text-content p {
+        display: inline;
+        margin: 0;
+
+    }
+
+    .description {
+        text-align: center;
+        width: 80%;
+        height: auto;
+        margin: 0;
+
+    }
+
+    .description span  {
+        display: inline;
+        text-align: center;
+
+
+    }
+
+    .newsletter-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .nws-btn {
+        margin: 20% 0;
+        align-self: center;
+        max-height: 70px;
+        height: auto;
+
+    }
+    .arrow {
+        height: inherit;
+        max-height: inherit;
+    }
+
+
+    
+}
