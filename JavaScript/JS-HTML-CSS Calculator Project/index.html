@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tips Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="calc-input">
+        <p>Bill</p>
+       <input
+          class="amount-input"
+          type="number"
+          name="amount-input"
+          placeholder="$0"
+        />
+        <p>Select Tip %</p>
+        <div class="tips-buttons">
+          <button id="button" class="percent-tip percent-btn-5">5%</button>
+          <button class="percent-tip percent-btn-10">10%</button>
+          <button class="percent-tip percent-btn-15">15%</button>
+        </div>
+        <p>Number of People</p>
+        <input
+          class="people-input"
+          type="number"
+          name="people-input"
+          placeholder="0"
+        />
+        <div class="calculate-btn-box">
+          <button class="calculate-btn" type="button">Calculate</button>
+        </div>
+      </section>
+      <section class="calc-result">
+        <div class="box-for-calc">
+          <div class="style-box">
+            <p class="first-line">Tip Amount</p>
+            <p class="second-line">/ person</p>
+          </div>
+          <div class="tip-amount">
+            <p class="amount tip-amount-visible">$0.00</p>
+          </div>
+        </div>
+        <div class="box-for-calc">
+          <div class="style-box">
+            <p class="first-line">Total</p>
+            <p class="second-line">/ person</p>
+          </div>
+          <div class="total-amount">
+            <p class="amount total-amount-visible">$0.00</p>
+          </div>
+        </div>
+        <button class="reset-btn">RESET</button>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
